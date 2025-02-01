@@ -169,6 +169,46 @@ CACHES = {
 }
 ```
 
+--- 
+## Use Docker to Set Up the Project
+
+---
+### **Setup Instructions**
+1. **Clone the repository**  
+   ```sh
+   git clone <your-github-repo-url>
+   cd <your-project-folder>
+   ```
+2. **change the settings.py**
+```
+CACHES = {
+    'default': {
+        'BACKEND': 'django_redis.cache.RedisCache',
+        'LOCATION': 'redis://host.docker.internal:6379/1',  # to run on docker
+        # 'LOCATION': 'redis://127.0.0.1:6379/1' ,   # to run host machine
+        'OPTIONS': {
+            'CLIENT_CLASS': 'django_redis.client.DefaultClient',
+        },
+    }
+}
+```
+3. **Build Docker images**  
+   ```sh
+   docker-compose build
+   ```
+
+4. **Start the containers**  
+   ```sh
+   docker-compose up 
+   ```
+
+5. **Verify running containers**  
+   ```sh
+   docker ps
+   ```
+
+---
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
