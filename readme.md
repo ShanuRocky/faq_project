@@ -14,13 +14,13 @@ This project is a Django-based FAQ (Frequently Asked Questions) management syste
 
 ## Requirements
 
-- Python 3.8 or higher
-- Django 4.2.7
-- Django REST Framework 3.14.0
-- django-ckeditor 6.7.0
+- Python 3.12.7
+- Django 5.1.5
+- Django REST Framework 3.15.2
+- django-ckeditor 6.7.2
 - django-redis 5.4.0
 - googletrans 3.1.0a0
-- Redis (for caching)
+- Redis 4.5.5 (for caching)
 
 ## Installation
 
