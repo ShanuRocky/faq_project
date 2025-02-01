@@ -59,6 +59,7 @@ This project is a Django-based FAQ (Frequently Asked Questions) management syste
 
 5. **Run migrations**:
     ```bash
+    python manage.py makemigrations
     python manage.py migrate
     ```
 
