@@ -78,6 +78,15 @@ Now the application should be running on `http://localhost:8000/`.
 - **Endpoint**: `GET /api/faqs/{id}/`
 - **Query Parameters**:
     - `lang`: Optional. Language code (e.g., `en`, `fr`, `es`).
+- **Response Body**:
+    ```json
+    {
+        "question": "What is the capital of France?",
+        "translated_question": "What is the capital of France?",
+        "answer": "The capital of France is <b>Paris</b>.",
+        "translated_answer": "The capital of France is <b>Paris</b>."
+    }
+    ```
   
     Example request for French:
     ```
@@ -144,3 +153,16 @@ CACHES = {
         }
     }
 }
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+- Django
+- Django REST Framework
+- Google Translate
+- CKEditor
+- Redis
