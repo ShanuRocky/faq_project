@@ -93,6 +93,7 @@ Now the application should be running on `http://localhost:8000/`.
 - **Response Body**:
     ```json
     {
+        "id": "1",
         "question": "What is the capital of France?",
         "translated_question": "What is the capital of France?",
         "answer": "The capital of France is <b>Paris</b>.",
@@ -140,7 +141,7 @@ To test the API, you can use the provided `tests.py` script.
 1. Ensure the Django server is running.
 2. Run the test script:
     ```bash
-    python tests.py
+    python faq_app/tests.py
     ```
 
 The script will perform the following actions:
