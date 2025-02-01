@@ -4,7 +4,7 @@
 
 This project is a Django-based FAQ (Frequently Asked Questions) management system that allows storing and managing FAQs in multiple languages. The system supports a WYSIWYG editor for content input, provides automatic translation for multiple languages, and implements caching for performance optimization.
 
-## Features
+## 🌟 Features
 
 - **FAQ Management**: Create, retrieve, update, and delete FAQs with rich text answers.
 - **Multi-Language Support**: FAQs can be translated into different languages using the Google Translate API.
@@ -12,7 +12,19 @@ This project is a Django-based FAQ (Frequently Asked Questions) management syste
 - **WYSIWYG Editor**: Rich text support for both questions and answers.
 - **API Endpoints**: Exposes RESTful API endpoints to manage FAQs and retrieve them in different languages.
 
-## Requirements
+## 📸 Screenshots
+
+- <img width="1462" alt="Image" src="https://github.com/user-attachments/assets/368354f8-05cc-46fe-b30a-254a3e432ad5" />
+
+- <img width="1460" alt="Image" src="https://github.com/user-attachments/assets/076ea5e7-a1ac-44fa-9da6-e27448de996c" />
+
+- <img width="1464" alt="Image" src="https://github.com/user-attachments/assets/14e6f3c4-1187-45da-8d24-7214fe774e91" />
+
+- <img width="1466" alt="Image" src="https://github.com/user-attachments/assets/935b0922-13d6-4fff-8d62-1df3d49654a2" />
+
+- <img width="1470" alt="Image" src="https://github.com/user-attachments/assets/40cfed58-31c0-46df-b29d-29ae462e3741" />
+
+## 🛠️ Requirements
 
 - Python 3.12.7
 - Django 5.1.5
@@ -22,7 +34,7 @@ This project is a Django-based FAQ (Frequently Asked Questions) management syste
 - googletrans 3.1.0a0
 - Redis 4.5.5 (for caching)
 
-## Installation
+## 🚀 Installation
 
 1. **Clone the repository**:
     ```bash
